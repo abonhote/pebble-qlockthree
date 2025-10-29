@@ -1,0 +1,56 @@
+{
+  "name": "qlockthree",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "qlockthree",
+    "uuid": "927e48be-2714-46bb-bef6-b6000ee80b0a",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite",
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_ANONYMOUSPROBOLD_12",
+          "file": "fonts/AnonymousPro-Bold.ttf",
+          "characterRegex": ".*"
+        },
+        {
+          "type": "font",
+          "name": "FONT_ANONYMOUSPRO_11",
+          "file": "fonts/AnonymousPro-Regular.ttf",
+          "characterRegex": ".*"
+        },
+                {
+          "type": "font",
+          "name": "FONT_HACK_BOLD_12",
+          "file": "fonts/Hack-Bold.ttf",
+          "characterRegex": ".*"
+        },
+        {
+          "type": "font",
+          "name": "FONT_HACK_11",
+          "file": "fonts/Hack-Regular.ttf",
+          "characterRegex": ".*"
+        }
+      ]
+    }
+  }
+}
